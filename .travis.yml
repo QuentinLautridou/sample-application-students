@@ -20,4 +20,3 @@ script:
     -Dsonar.organization=quentinlautridou-github \
     -Dsonar.host.url=https://sonarcloud.io \
     -Dsonar.login=$SONAR_TOKEN
-  - mvn verify
