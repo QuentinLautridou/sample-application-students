@@ -1,35 +1,29 @@
 language: java
 jdk: oraclejdk8
-
 env:
   global:
-    - secure: OxWfcJjIp48+JBJbNn+xV0VkszfaEEecdVSTXQk9g/e/dHinrAwv8lrH1MWxqdMfPefiJWnXH/YTfrTSTqslk8SawEs7WU8sqiY8mIDVlHVU9JOlGxNleLzQTjHsW0r6dBNaHZhNv8xzhQuuzHHQ243uiTYxgSN96mGboho10eczcmEgx1tHT6yZ/oWJjKK9jnlBXvkVDYZG7thyVEnBHKkag+XzSxmcPiuVQ/xCfiDksnfCjnCdnk5YBG4K5ySmoFurdeTA1kvbqeEUS0mVUssi6A3XtH9Tu+cPHOx9VUuhI8j3JBBVR5fwSveX/bnST0qZpqAliZGsKjVK+WcHA4sNyF+6m1wf0Z61DF2ZQl7Aen4opTsvcKaZ4d0luQ3PSUsqfev3yq1WUERy04wk5VqMK3/xsENwqf5+i6Xv70i1X2chuY8mnpugobzL4aykI5dG7oLubgzUWvdJqBMZzJiPED7/VWr7gU4m9vIfZ3AntzGn+uebYV6czcMZbt8YfbNjy2/gCNDLNCEhoAp3SaXRMxISHeCU2pK9BcpaHNf+2Jpu2rGQa/+r/86ApTVcKAbuVpDSo6e1SHQ123jGKd50vEEazoXZVglaYrP9xkM+6ZThkNsgwBE4IjKiG2fnwzIahXbpoWhEJs1wDRr1nXjKGmJwvCeaAuRLxftnoAA=
-    - secure: Ehz27XNRI8zojuSnDIoZDHM4GHSm8i0otjqoE07/d9jxJqIw2v3tJ/BXYXarCr/XbA3us/oa178jpm7XDNmcpPXL1QRTOVJrRY2M+MTMUOt/9x1BcWhnjYEb9SFAczC4rzN7QzqsZEDUoRNCMNcuiPGenKJhJqmlwJeKtRkosYy+b2VaLvwesOCTorWU5EkmcIs7d8ybgWVPPLbZRPeK/dk6RAxciPRfZj4/clvTq7Wa69LyTdg970kv7POWqsGjRlSRzqijLDHLnEZyJ+ggPQesMbLXn0041YWB6y+Vi2ZegUFrKuhTqxRpHqc4alhUtRpixATgbJvi84eNvBIHRbferLSjfQmUe6kGGRc+RaOYoQQ9vQkslyyNK72xbwxLvhNrGc5e6YTj+TGbL5lNU8emJe2kZAzLthKdYuD4iJYrkGApAbcH9rVnAt+SGiRLwu1mBpgPDG/xpsKQGFAIVv8oLsPJ71TijHZGLbeA5OqQxZFOxVtGzk1dXSnSTMp6GpHMnqT31hUwXAO84eTFnbfRjvussiSAqsPUai+39WltqVUA+pn6IqVmT0tPJXx03gJBkVq6pC8lpD0+6Luh6fCVU5x9puRgKJCIQR2me4h81gDsdvb1VhRTXMfcNaXCR6okX4ZmAF2XSVlKj8QaiPim//RZIa7PzNKFS9iGYR8=
-    - secure: PsONsTEcWVLrlbmpk6b6wB00VKRMm5qtjh5ei144E201Vw/gEnlX1f7wI/HikhxR2E/0MVxvzpCvUOZumsuSXUJBjeXYTKdewFexzCN4hri7SZj4z7dC1n2J1SbVx6YlOWYGWIPK7g32VxzP6g/rEGebZDqQfQ9WxPI3zCnaSArWq7GTaCZesD9i5lG25Efo7nKHc3Rb+S8szIeXWZntaiedHI1fwsxQWnm2mFZTj7YzSnY/b1Chfe9jYH22Zq7nQXvcjFeUdXKmrsvjtdM+xTmA/XTBCF1+tCu0hTSzVyn+mUk69aQ0SfPfO4LtaceoUvA0PqxHmOI6195rRIEZMsKHBxndzJle/L7ru+iCEkUCFVcBLcGJDTPkrG9HuQSM0PExSSrjiU+NiyW7uxNSwDDydYmDjmS+SkUGAei8XCXG7N9E+c09TvyjokNrchC/+sNd7lPXRaK2/w8roTLMOlW8nICa1bfQLxAEHHQHBcsKGgj6HkU4wRNXRnkIpqDfuXx/h5UVAutVHXLzGu6pye0xko41QmB4A1zIikGis8EhPnuXxuQPPobM43NO/7rSFO5aMGXfIFAwtNLnRDUx4u7YMubMCZ5NfYflA69VlRx/DFSGr3VYnC4nXEOtk/xQv14JdIxuHcrSiHQ3fXm0xw+CRVBSYZB79sJ9yGAR0RE=
+  - secure: OxWfcJjIp48+JBJbNn+xV0VkszfaEEecdVSTXQk9g/e/dHinrAwv8lrH1MWxqdMfPefiJWnXH/YTfrTSTqslk8SawEs7WU8sqiY8mIDVlHVU9JOlGxNleLzQTjHsW0r6dBNaHZhNv8xzhQuuzHHQ243uiTYxgSN96mGboho10eczcmEgx1tHT6yZ/oWJjKK9jnlBXvkVDYZG7thyVEnBHKkag+XzSxmcPiuVQ/xCfiDksnfCjnCdnk5YBG4K5ySmoFurdeTA1kvbqeEUS0mVUssi6A3XtH9Tu+cPHOx9VUuhI8j3JBBVR5fwSveX/bnST0qZpqAliZGsKjVK+WcHA4sNyF+6m1wf0Z61DF2ZQl7Aen4opTsvcKaZ4d0luQ3PSUsqfev3yq1WUERy04wk5VqMK3/xsENwqf5+i6Xv70i1X2chuY8mnpugobzL4aykI5dG7oLubgzUWvdJqBMZzJiPED7/VWr7gU4m9vIfZ3AntzGn+uebYV6czcMZbt8YfbNjy2/gCNDLNCEhoAp3SaXRMxISHeCU2pK9BcpaHNf+2Jpu2rGQa/+r/86ApTVcKAbuVpDSo6e1SHQ123jGKd50vEEazoXZVglaYrP9xkM+6ZThkNsgwBE4IjKiG2fnwzIahXbpoWhEJs1wDRr1nXjKGmJwvCeaAuRLxftnoAA=
+  - secure: Ehz27XNRI8zojuSnDIoZDHM4GHSm8i0otjqoE07/d9jxJqIw2v3tJ/BXYXarCr/XbA3us/oa178jpm7XDNmcpPXL1QRTOVJrRY2M+MTMUOt/9x1BcWhnjYEb9SFAczC4rzN7QzqsZEDUoRNCMNcuiPGenKJhJqmlwJeKtRkosYy+b2VaLvwesOCTorWU5EkmcIs7d8ybgWVPPLbZRPeK/dk6RAxciPRfZj4/clvTq7Wa69LyTdg970kv7POWqsGjRlSRzqijLDHLnEZyJ+ggPQesMbLXn0041YWB6y+Vi2ZegUFrKuhTqxRpHqc4alhUtRpixATgbJvi84eNvBIHRbferLSjfQmUe6kGGRc+RaOYoQQ9vQkslyyNK72xbwxLvhNrGc5e6YTj+TGbL5lNU8emJe2kZAzLthKdYuD4iJYrkGApAbcH9rVnAt+SGiRLwu1mBpgPDG/xpsKQGFAIVv8oLsPJ71TijHZGLbeA5OqQxZFOxVtGzk1dXSnSTMp6GpHMnqT31hUwXAO84eTFnbfRjvussiSAqsPUai+39WltqVUA+pn6IqVmT0tPJXx03gJBkVq6pC8lpD0+6Luh6fCVU5x9puRgKJCIQR2me4h81gDsdvb1VhRTXMfcNaXCR6okX4ZmAF2XSVlKj8QaiPim//RZIa7PzNKFS9iGYR8=
+  - secure: PsONsTEcWVLrlbmpk6b6wB00VKRMm5qtjh5ei144E201Vw/gEnlX1f7wI/HikhxR2E/0MVxvzpCvUOZumsuSXUJBjeXYTKdewFexzCN4hri7SZj4z7dC1n2J1SbVx6YlOWYGWIPK7g32VxzP6g/rEGebZDqQfQ9WxPI3zCnaSArWq7GTaCZesD9i5lG25Efo7nKHc3Rb+S8szIeXWZntaiedHI1fwsxQWnm2mFZTj7YzSnY/b1Chfe9jYH22Zq7nQXvcjFeUdXKmrsvjtdM+xTmA/XTBCF1+tCu0hTSzVyn+mUk69aQ0SfPfO4LtaceoUvA0PqxHmOI6195rRIEZMsKHBxndzJle/L7ru+iCEkUCFVcBLcGJDTPkrG9HuQSM0PExSSrjiU+NiyW7uxNSwDDydYmDjmS+SkUGAei8XCXG7N9E+c09TvyjokNrchC/+sNd7lPXRaK2/w8roTLMOlW8nICa1bfQLxAEHHQHBcsKGgj6HkU4wRNXRnkIpqDfuXx/h5UVAutVHXLzGu6pye0xko41QmB4A1zIikGis8EhPnuXxuQPPobM43NO/7rSFO5aMGXfIFAwtNLnRDUx4u7YMubMCZ5NfYflA69VlRx/DFSGr3VYnC4nXEOtk/xQv14JdIxuHcrSiHQ3fXm0xw+CRVBSYZB79sJ9yGAR0RE=
+  - secure: dOgZ5EG6271pw2jH30nKpDopMRvmMNjNWKTrucLCKYqJYbMImVWawTSPFasfJN/eJqOsfgq9QhP+n5sZyD1WRklbN33N5elCypR8zfOYZns6gPf4hsjNmu8NRKCwrLpZxH7WHpopv+C3FDmlrIvL7u4hb1L3kWFZIvFkNGD3GTF8yCRzqW4zg9G+R5MGIWOlge1qOMuKlPygJ9cRTj4BIYwnucsCQw3sgwXgV1tS+/ve+U4CL503h8AT9t5cEl8kJ7NnAmlaleRbQccw/95ga0sculmePY6EmxVukpVmyX8eS0uxWhiSTUuSb0tx7VW+rkpgjBpNNEPR5wzgkG7iG47sknlEi5RxgEtlAOvAsuhhuXkZm4WbqbIbjccrYvXJ0PPha+6AFpGgqGO6YzuqQvmhhV3l7niK9hpnj3uHy0Qy+55xU3W50NFjnlT+kwucI3Oi7d7jkZfEeMYHKVyPW3pCHit7m4rIISdUSfDDoVb0EuUJDjPrzO0EHSW84JzikF6XjEnM18RbHEZBToE5eCvRIbFnmkg/ahHT/ItdfAvUy97l+xxIqHuXYJyrOi5DN/Zrbt1IMCY9LEdzOUSfL7kl9t81tPtmdUxmBvZFCHg/VmH17ExO2pys3k97WFileL1l8rX2BUHEshTYyWonYP2rTObi9TFyqO6lrl7u7oE=
+  - secure: FQdDZeLytri9AVY/ehLWBbVPd1V3tzeeqnASc7JahCGkrhmI2LTnoYzQbK3KjnPTMnv3wvv+mssQA3WwKv3vLFz1K9fD9PszW75fuuUjSwHX89n79AIO3wRZKNCbAb9I2gLWfsvgFkUKKV1esSF+QdXEhV9Xu+dpRVLkBJA96vgoOvLuJzjiLKAjrUuNO+f0pUol5TGZckeppy+XV0BOPSy88z6z7a9ThEqcMx3peWZ4beOSYUvv80coHPjNILnt+mUT0NOj4V093fIC84+WxxWsUZZ8fUght4i+9GNquj3UY0iqanqRm5Hck/TK/KXx9U6MxxTcYKkprT0O+bBNCtrzmO32cALxIWtgvcQFP2YRLXd5pXUJZZhNWQOf1BE5hQXi3Kk9UGaZwigqsvzGH5pyLAjSys6i3f+pM5j6MlhKUDlaIanVQJgD4OrxYmsTZrFPda3nWNsVL7RQZKSuo895QPix+ZYiVgh8c+VBBpPa4WVPU5iMUjnKGmzL/eXrjU9hSF1Z7jIsTySKdiQjmwyhBBSsHrN5M9utotR4zrOjvh4N9jcwbHY4MPNwFWuj+tTtJmjEveIfmkpRDLkcJOu2zNg726VcRNVTKLVKbLskSVI559UbZSMLEWpgSuttH6Lmp4AAvTPaMH0oc+NC7k8il5kt9GgjgRdpSgWI4uI=
 services:
-  - docker
-
+- docker
 before_install:
-  - sudo service mysql stop
-  - docker pull takimatraining/devops-training-db
-  - docker run -d -p 127.0.0.1:3306:3306 takimatraining/devops-training-db
-
+- sudo service mysql stop
+- docker pull takimatraining/devops-training-db
+- docker run -d -p 127.0.0.1:3306:3306 takimatraining/devops-training-db
 script:
-  - |
-    mvn clean install sonar:sonar \
-    -Dsonar.projectKey=QuentinLautridou_sample-application-students \
-    -Dsonar.organization=quentinlautridou-github \
-    -Dsonar.host.url=https://sonarcloud.io \
-    -Dsonar.login=$SONAR_TOKEN
-  # Login to Docker hub
-  - docker login -u $DOCKER_USER -p $DOCKER_PASS
-  # Tag text according to the branch
-  - export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH; fi`
-  # Image name
-  - export IMAGE_NAME=qlautridou/sample-application
-  # Build the image (see Dockerfile) and tag it with the commit ID
-  - docker build -t $IMAGE_NAME:$TRAVIS_COMMIT .
-  # Retag the image with the previously choosen tag
-  - docker tag $IMAGE_NAME:$TRAVIS_COMMIT $IMAGE_NAME:$TAG
-  # Push the tagged image to Docker Hub
-  - docker push $IMAGE_NAME:$TAG
+- |
+  mvn clean install sonar:sonar \
+  -Dsonar.projectKey=QuentinLautridou_sample-application-students \
+  -Dsonar.organization=quentinlautridou-github \
+  -Dsonar.host.url=https://sonarcloud.io \
+  -Dsonar.login=$SONAR_TOKEN
+- docker login -u $DOCKER_USER -p $DOCKER_PASS
+- export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH;
+  fi`
+- export IMAGE_NAME=qlautridou/sample-application
+- docker build -t $IMAGE_NAME:$TRAVIS_COMMIT .
+- docker tag $IMAGE_NAME:$TRAVIS_COMMIT $IMAGE_NAME:$TAG
+- docker push $IMAGE_NAME:$TAG
