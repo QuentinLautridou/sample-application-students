@@ -41,6 +41,7 @@ public class StudentsServiceTest {
     }
 
 
+    /*
     @Test
     public void testGetStudentById() {
         when(studentDAO.getById(1L)).thenReturn(student);
@@ -52,7 +53,7 @@ public class StudentsServiceTest {
         assertThrows(IllegalArgumentException.class, () -> studentService.getStudentById(-5));
     }
 
-    /*
+    
     @Test
     public void testGetStudentsByDepartmentName() {
         List<Student> students = new ArrayList<>();
@@ -60,7 +61,7 @@ public class StudentsServiceTest {
         when(studentDAO.findStudentsByDepartment_Name("DepartmentTest")).thenReturn(students);
 
         assertEquals(students, studentService.getStudentsByDepartmentName("DepartmentTest"));
-    }*/
+    }
 
     @Test
     public void testGetStudentsByDepartmentNameWithNullValue() {
@@ -117,5 +118,5 @@ public class StudentsServiceTest {
     @Test
     public void testRemoveStudentWithNegativeId() {
         assertThrows(IllegalArgumentException.class, () -> studentService.removeStudentById(-5));
-    }
+    }*/
 }
