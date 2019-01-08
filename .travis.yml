@@ -15,7 +15,7 @@ before_install:
 - docker run -d -p 127.0.0.1:3306:3306 takimatraining/devops-training-db
 # Prepare deploy
 - openssl aes-256-cbc -K $encrypted_xxxxxxx_key -iv $encrypted_xxxxxxxxxxx_iv
-  -in travis_deploy_rsa.enc -out ~\/.ssh/travis_deploy_rsa -d  # Généré par travis encrypt-file
+  -in id_rsa_insa_training.enc -out ~\/.ssh/travis_deploy_rsa -d  # Généré par travis encrypt-file
 - chmod 600 /tmp/travis_deploy_rsa
 - eval "$(ssh-agent -s)"
 - ssh-add /tmp/travis_deploy_rsa
