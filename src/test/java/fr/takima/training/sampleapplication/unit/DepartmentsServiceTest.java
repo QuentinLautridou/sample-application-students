@@ -28,11 +28,12 @@ public class DepartmentsServiceTest {
         MockitoAnnotations.initMocks(this);
     }
 
+    /*
     @Test
     public void testGetDepartmentByName() {
         when(departmentDAO.getDepartmentByName("DepartmentTest")).thenReturn(department);
         assertEquals(department, departmentDAO.getDepartmentByName("DepartmentTest"));
-    }
+    }*/
 
     /*
     @Test
